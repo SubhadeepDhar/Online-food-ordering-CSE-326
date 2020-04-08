@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+	<div  class="lg">
+		<img src="male-chef-logo-illustration_119589-139.jpg" class="pic">
+		<div class="button">
+			<div id="colorbox">
+				
+			</div>
+			
+				<button class="btag" onclick="login()">Login</button>
+				<button class="btag" onclick="Register()">Register</button>
+			
+			
+		</div>
+		<form id="login" class="inputs">
+			<input type="text" name="" class="inputa" placeholder="Username" required>
+			<input type="password" name="" class="inputa" placeholder="Enter Password" required>
+			<input type="checkbox" name="" class="inputb"><span>Remember Password</span>
+			<button type="submit" class="inputc"><a href="file:///E:/Projects/Online%20food%20ordering%20-%20CSE%20326/pages/index.html">login</a></button>
+			
+		</form>
+		<form id="register" class="inputs">
+			<input type="text" name="" class="inputa" placeholder="Username" required>
+			<input type="email" name="" class="inputa" placeholder="Email Id" required>
+			<input type="password" name="" class="inputa" placeholder="Enter Password" required>
+			<input type="checkbox" name="" class="inputb"><span>I agree to the terms and conditions</span>
+			<button type="submit" class="inputc"><a href="file:///E:/Projects/Online%20food%20ordering%20-%20CSE%20326/pages/index.html">Register</a></button>
+			
+		</form>
+		
+	
+	
+	</div>
+	<script >
+		var x=document.getElementById("login");
+		var y=document.getElementById("register");
+		var z=document.getElementById("colorbox");
+
+		function Register()
+		{
+			x.style.left="-450px";
+			y.style.left="20px";
+			z.style.left="110px";
+		}
+		function login()
+		{
+			x.style.left="20px";
+			y.style.left="450px";
+			z.style.left="0px";
+		}
+	</script>
+
+</body>
+</html>

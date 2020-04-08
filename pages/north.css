@@ -1,0 +1,14 @@
+
+.zoom
+{
+	transition: transform 0.5s;
+}
+.zoom:hover
+{
+	transform: scale(1.05);
+}
+.bt a
+{
+	text-decoration: none;
+	
+}

@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	box-sizing: border-box;
+}
+body
+{
+	background: url('dp2.jpg') ;
+	background-size:cover;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	
+    
+
+}
+.wt
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: black;
+	opacity:0.8;
+
+}
+.contcat
+{
+	width: 100%;
+	max-width: 500px;
+	height: auto;
+	background: rgba(0,0,0,0,7);
+	padding: 40px 50px;
+	border-radius: 5px;
+}
+.title
+{
+	font-size: 2em;
+	line-height: 1.5em;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 2px;
+	color:#ffc107;
+	
+	padding-bottom: 15px;
+}
+.input
+{
+	padding: 0 30px;
+}
+.input .items
+{
+	width: 100%;
+	padding-bottom: 15px;
+}
+.input .items .label
+{
+	display: block;
+	font-size: 1em;
+	color: #ffecb3;
+	text-transform: capitalize;
+	transform: all 0.5s ease;
+	padding-bottom: 5px;
+
+}
+.input .items .in,
+.input .items .textarea
+{
+	background: transparent;
+	border: 0;
+	border: 1px solid #ffecb3;
+	width: 100%;
+	padding: 8px 10px;
+	font-size: 1em;
+	color:#ffecb3;
+	border-radius: 3px;
+
+}
+.btn
+{
+	margin: 0 30px;
+	background: #ffc107;
+	color: #ffecb3;
+	font-size: 1.25em;
+	padding: 10px 0;
+	text-align: center;
+	text-transform: uppercase;
+	border-radius: 5px;
+	cursor: pointer;
+	font-weight: bold;
+	letter-spacing: 2px;
+
+
+}
+.items #msg
+{
+	height: 100px;
+}
